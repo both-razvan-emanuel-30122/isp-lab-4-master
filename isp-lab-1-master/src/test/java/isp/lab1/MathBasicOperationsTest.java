@@ -18,5 +18,7 @@ public class MathBasicOperationsTest {
     public void testSubstract(){
         assertEquals("Should substract 2 numbers", 5, MathBasicOperations.substract(15,10));
     }
-
+    public void testMultiply(){
+        assertEquals("Should multiply 2 numbers",100, MathBasicOperations.multiply(20, 5)
+    }
 }
